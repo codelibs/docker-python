@@ -3,7 +3,7 @@
 PYTHON_VERSION=3.9
 PYTHON_OS_CODE=buster
 DOCKER_FILE_URL=https://raw.githubusercontent.com/docker-library/python/master/${PYTHON_VERSION}/${PYTHON_OS_CODE}/Dockerfile
-BUILD_OS_CODE=bionic
+BUILD_OS_CODE=focal
 USE_BUILDX=false
 
 echo "Downloading ${DOCKER_FILE_URL}"
